@@ -1,0 +1,122 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f6f9fc;
+}
+
+body, html, #root {
+  min-height: 100%;
+  margin: 0;
+}
+
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+nav a,
+.link-button {
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  color: #1a73e8;
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  background: #e8f0fe;
+  border-radius: 999px;
+  color: #0f3d91;
+}
+
+.token-panel {
+  margin-top: 1.25rem;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+}
+
+.token-box {
+  width: 100%;
+  overflow-x: auto;
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-family: monospace;
+  margin-top: 0.75rem;
+}
+
+nav a:hover,
+.link-button:hover {
+  background: rgba(26, 115, 232, 0.08);
+}
+
+main {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.page-card {
+  padding: 1rem;
+}
+
+.page-card h2 {
+  margin-top: 0;
+}
+
+.page-card form {
+  display: grid;
+  gap: 1rem;
+  max-width: 320px;
+}
+
+.page-card label {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.page-card input,
+.page-card select,
+.page-card button {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.page-card button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+}
+
+.permissions-panel {
+  margin-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+}
