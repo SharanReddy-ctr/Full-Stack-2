@@ -1,0 +1,118 @@
+.post-form {
+  background: white;
+  width: 100%;
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.post-form h2 {
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.post-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #222;
+  outline: none;
+}
+
+.post-form input:focus,
+.post-form textarea:focus {
+  border-color: #2563eb;
+}
+
+.post-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.post-form button {
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.post-form button:hover {
+  background: #1d4ed8;
+}
+
+/* POST CARD */
+
+.post-card {
+  background: white;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.post-card p {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.post-actions button {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 600;
+}
+
+/* VIEW */
+
+.view-btn {
+  background: #2563eb;
+}
+
+.view-btn:hover {
+  background: #1d4ed8;
+}
+
+/* EDIT */
+
+.edit-btn {
+  background: #f59e0b;
+}
+
+.edit-btn:hover {
+  background: #d97706;
+}
+
+/* DELETE */
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}

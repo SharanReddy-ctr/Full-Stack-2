@@ -1,0 +1,25 @@
+.footer{
+
+margin-top:40px;
+
+padding:18px;
+
+text-align:center;
+
+background:rgba(255,255,255,.15);
+
+backdrop-filter:blur(15px);
+
+color:white;
+
+font-size:16px;
+
+box-shadow:0 -5px 15px rgba(0,0,0,.15);
+
+}
+
+.footer p{
+
+letter-spacing:1px;
+
+}

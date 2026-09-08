@@ -1,0 +1,75 @@
+.dashboard-page {
+  min-height: 100vh;
+}
+
+.dashboard {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.dashboard-header p {
+  color: white;
+  font-size: 17px;
+}
+
+/* ERROR / SUCCESS MESSAGE */
+
+.action-message {
+  width: 100%;
+  max-width: 650px;
+  margin: 15px auto;
+  padding: 14px;
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* POSTS */
+
+.posts-section {
+  margin-top: 40px;
+}
+
+.posts-section h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  );
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+
+  .dashboard {
+    width: 95%;
+    padding: 25px 10px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 26px;
+  }
+
+}

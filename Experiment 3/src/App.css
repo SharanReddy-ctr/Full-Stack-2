@@ -1,0 +1,14 @@
+/* App.css */
+
+/* Root Container */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Smooth transition for all elements */
+
+* {
+  transition: all 0.3s ease;
+}
